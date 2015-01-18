@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E71C9773-2C27-43DA-B66E-7759F953C8AC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HRM.Spar.Entities</RootNamespace>
+    <AssemblyName>HRM.Spar.Entities</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>C:\Users\Rozak\Documents\Visual Studio 2013\Projects\HRM.Spar\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="hrm_advanced_report.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_attendance_record.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_available_group_field.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_beacon_notification.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_composite_display_field.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_customer.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_datapoint.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_datapoint_type.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_data_group.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_data_group_screen.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_display_field.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_display_field_group.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_education.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_email.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_email_configuration.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_email_notification.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_email_processor.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_email_subscriber.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_email_template.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_employment_status.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_emp_education.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_emp_license.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_emp_reporting_method.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_emp_termination.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_emp_termination_reason.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_filter_field.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_group_field.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_holiday.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_home_page.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_job_candidate.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_job_candidate_attachment.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_job_candidate_history.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_job_candidate_vacancy.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_job_category.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_job_interview.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_job_interview_attachment.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_job_specification_attachment.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_job_title.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_job_vacancy.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_job_vacancy_attachment.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_kpi.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_language.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_leave.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_leave_adjustment.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_leave_comment.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_leave_entitlement.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_leave_entitlement_adjustment.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_leave_entitlement_type.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_leave_leave_entitlement.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_leave_period_history.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_leave_request.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_leave_request_comment.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_leave_status.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_leave_type.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_license.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_location.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_login.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_membership.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_menu_item.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_module.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_module_default_page.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_nationality.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_operational_country.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_organization_gen_info.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_pay_grade.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_pay_grade_currency.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_performance_review.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_performance_track.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_performance_tracker_log.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_performance_tracker_reviewer.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_plugin.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_project.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_project_activity.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_project_admin.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_report.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_report_group.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_reviewer.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_reviewer_group.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_reviewer_rating.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_role_user_selection_rule.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_screen.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_selected_composite_display_field.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_selected_display_field.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_selected_display_field_group.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_selected_filter_field.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_selected_group_field.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_skill.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_subunit.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_summary_display_field.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_timesheet.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_timesheet_action_log.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_timesheet_item.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_upgrade_history.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_user.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_user_role.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_user_role_data_group.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_user_role_screen.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_user_selection_rule.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_workflow_state_machine.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_work_shift.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hrm_work_week.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_config.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_country.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_currency_type.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_custom_export.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_custom_fields.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_custom_import.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_district.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_employee.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_emp_attachment.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_emp_basicsalary.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_emp_children.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_emp_contract_extend.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_emp_dependents.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_emp_directdebit.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_emp_emergency_contacts.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_emp_history_of_ealier_pos.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_emp_language.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_emp_member_detail.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_emp_passport.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_emp_picture.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_emp_reportto.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_emp_skill.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_emp_us_tax.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_emp_work_experience.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_mailnotifications.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_module.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_payperiod.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_pay_period.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_province.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="hs_hr_unique_id.cs">
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SparModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SparModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SparModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SparModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SparModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SparModel.edmx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="SparModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SparModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="SparModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SparModel.edmx</DependentUpon>
+      <LastGenOutput>SparModel.Context.cs</LastGenOutput>
+    </None>
+    <None Include="SparModel.edmx.diagram">
+      <DependentUpon>SparModel.edmx</DependentUpon>
+    </None>
+    <None Include="SparModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SparModel.edmx</DependentUpon>
+      <LastGenOutput>SparModel.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

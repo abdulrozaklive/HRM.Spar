@@ -1,0 +1,365 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/hrm/MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/hrm/assets/ico/favicon.png">
+
+    <title>Spar.</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/hrm/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="/hrm/dist/css/spar.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar-fixed-top.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/hrm/assets/js/html5shiv.js"></script>
+      <script src="/hrm/assets/js/respond.min.js"></script>
+    <![endif]-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="body-spar">
+    <form id="form1" runat="server">
+        <!-- Fixed navbar -->
+        <div class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <!---<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>--->
+                    <div class="btn-group-right">
+                        <a href="#" class="btn-icon-user dropdown-toggle" data-toggle="dropdown">
+                            <span class="glyphicon glyphicon-user"></span>
+                        </a>
+                        <ul class="dropdown-menu2" role="menu">
+                            <li><a href="#">My Profile</a></li>
+                            <li><a href="#">Change Password</a></li>
+                        </ul>
+                    </div>
+                    <a class="navbar-brand" href="/hrm">
+                        <h3>Spar.</h3>
+                    </a>
+                    <div class="top-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default btn-xs" type="button">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+
+
+                    <ul class="nav navbar-nav pull-right notification">
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <span class="glyphicon glyphicon-envelope"></span><span class="badge badge-orange">9</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Mail 1</a></li>
+                                <li><a href="#">Mail 2</a></li>
+                                <li><a href="#">Mail 3</a></li>
+                                <li><a href="#">Mail 4</a></li>
+                                <li><a href="#">Mail 5</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">See All Messages</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <span class="glyphicon glyphicon-bell"></span><span class="badge badge-red">29</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Notification 1</a></li>
+                                <li><a href="#">Notification 2</a></li>
+                                <li><a href="#">Notification 3</a></li>
+                                <li><a href="#">Notification 4</a></li>
+                                <li><a href="#">Notification 5</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">See All Notifications</a></li>
+                            </ul>
+                        </li>
+
+
+
+                        <li class="dropdown mobile-hidden">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <span class="glyphicon glyphicon-plus-sign"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+
+                                <li class="dropdown-header">Popular Actions</li>
+                                <li><a href="#addEmployeeModal" data-toggle="modal">Add New Employee</a></li>
+                                <li><a href="#addEmployeeModal" data-toggle="modal">Add New Leave</a></li>
+                                <li><a href="#addEmployeeModal" data-toggle="modal">Add New Vacancy</a></li>
+                                <li><a href="#addEmployeeModal" data-toggle="modal">Add New Training</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown mobile-hidden">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <span class="glyphicon glyphicon-cog"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Site Settings</a></li>
+                                <li><a href="#">Announcement</a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="navbar-collapse collapse">
+
+
+                        <ul class="nav navbar-nav navbar-right user-top">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Teale Shapcott <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="masterdata2.html">My Profile</a></li>
+                                    <li><a href="#">Change Password</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="/Logout.aspx">Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+
+
+                    </div>
+                    <!--/.nav-collapse -->
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- End Navbar -->
+
+        <div class="navbar bg-brown">
+            <div class="container">
+                <div id="profile">
+                    <img src="/assets/img/profile-pic.jpg" alt="Teale Shapcott">
+                    <ul class="top-list">
+                        <li><a class="name" href="masterdata2.html"><span class="greets">Hi, </span>Teale Shapcott</a></li>
+                        <li><a class="view-prof" href="masterdata2.html">View My Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container cont-big">
+
+
+
+            <div class="sidebar">
+
+                <ul class="nav bs-sidenav">
+                    <li class="accordion-group border-btm">
+                        <span class="accordion-heading">
+                            <a href="home.html">
+                                <span class="glyphicon glyphicon-dashboard p-right10"></span>
+                                <span class="left-nav-text">Overview
+                                </span>
+                            </a>
+                        </span>
+                    </li>
+
+                    <li class="accordion-group border-btm">
+                        <span class="accordion-heading">
+                            <span class="glyphicon glyphicon-user p-right10"></span>
+                            <span class="left-nav-text">People
+                            </span>
+                        </span>
+                        <ul id="collapseOne" class="accordion-body">
+                            <li class="accordion-inner">
+                                <a href="masterdata.html">
+                                    <span class="glyphicon glyphicon-user p-right10"></span>
+                                    <span class="left-nav-text">People Directory
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="accordion-inner">
+                                <a href="travel.html">
+                                    <span class="glyphicon glyphicon-plane p-right10"></span>
+                                    <span class="left-nav-text">Leave
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="accordion-inner">
+                                <a href="recruitment.html">
+                                    <span class="glyphicon glyphicon-briefcase p-right10"></span>
+                                    <span class="left-nav-text">Recruitment
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="accordion-inner">
+                                <a href="recruitment.html">
+                                    <span class="glyphicon glyphicon-briefcase p-right10"></span>
+                                    <span class="left-nav-text">Mutation
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="accordion-inner">
+                                <a href="recruitment.html">
+                                    <span class="glyphicon glyphicon-briefcase p-right10"></span>
+                                    <span class="left-nav-text">Retirement
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="accordion-group border-btm">
+                        <span class="accordion-heading">
+                            <span class="glyphicon glyphicon-usd p-right10"></span>
+                            <span class="left-nav-text">Payroll
+                            </span>
+                        </span>
+                        <ul id="collapseTwo" class="accordion-body">
+                            <li class="accordion-inner">
+                                <a href="payroll.html">
+                                    <span class="glyphicon glyphicon-usd p-right10"></span>
+                                    <span class="left-nav-text">Payroll
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="accordion-inner">
+                                <a href="claims.html">
+                                    <span class="glyphicon glyphicon-dashboard p-right10"></span>
+                                    <span class="left-nav-text">Claims &amp; Requests
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="accordion-inner">
+                                <a href="process.html">
+                                    <span class="glyphicon glyphicon-refresh p-right10"></span>
+                                    <span class="left-nav-text">Process
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="accordion-inner">
+                                <a href="attendance.html">
+                                    <span class="glyphicon glyphicon-calendar p-right10"></span>
+                                    <span class="left-nav-text">Attendance
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li class="accordion-group border-btm">
+                        <span class="accordion-heading">
+                            <span class="glyphicon glyphicon-folder-open p-right10"></span>
+                            <span class="left-nav-text">Company
+                            </span>
+                        </span>
+                        <ul id="collapseThree" class="accordion-body">
+                            <li class="accordion-inner">
+                                <a href="calendar.html">
+                                    <span class="glyphicon glyphicon-calendar p-right10"></span>
+                                    <span class="left-nav-text">Calendar
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="accordion-inner">
+                                <a href="training.html">
+                                    <span class="glyphicon glyphicon-th-list p-right10"></span>
+                                    <span class="left-nav-text">Training &amp; Certifications
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="accordion-inner">
+                                <a href="organization.html">
+                                    <span class="glyphicon glyphicon-refresh p-right10"></span>
+                                    <span class="left-nav-text">Organization Chart
+                                    </span>
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="main-cont">
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        <!-- /container -->
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.js"></script>
+        <script src="dist/js/bootstrap.min.js"></script>
+        <script src="js/chart.js"></script>
+        <script>
+            var doughnutData = [{
+                value: 30,
+                color: "#F7464A"
+            },
+                {
+                    value: 50,
+                    color: "#46BFBD"
+                },
+                {
+                    value: 100,
+                    color: "#FDB45C"
+                },
+                {
+                    value: 40,
+                    color: "#949FB1"
+                },
+                {
+                    value: 120,
+                    color: "#4D5360"
+                }
+
+            ];
+
+            var barChartData = {
+                labels: ["A", "B", "C", "D", "E"],
+                datasets: [
+                    {
+                        fillColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
+                        data: [28, 48, 40, 19, 96]
+                    }
+                ]
+
+            }
+
+            var barChartOptions = {
+                scaleFontStyle: "normal",
+                barShowStroke: false,
+                scaleShowLabels: false,
+                scaleGridLineColor: "#FFFFFF",
+                scaleLineColor: "#FFFFFF"
+            }
+
+            var myLine = new Chart(document.getElementById("right_chart").getContext("2d")).Bar(barChartData, barChartOptions);
+            var myDoughnut = new Chart(document.getElementById("left_chart").getContext("2d")).Doughnut(doughnutData);
+
+        </script>
+    </form>
+</body>
+</html>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="af6499879c194909b4ccc883fe13fa33" Name="Diagram1">
+        <EntityTypeShape EntityType="sparModel.hrm_advanced_report" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_attendance_record" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_available_group_field" Width="1.5" PointX="7.5" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_beacon_notification" Width="1.5" PointX="9.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_composite_display_field" Width="1.5" PointX="5.25" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_customer" Width="1.5" PointX="11.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_data_group" Width="1.5" PointX="5" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_data_group_screen" Width="1.5" PointX="7.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_datapoint" Width="1.5" PointX="12" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_datapoint_type" Width="1.5" PointX="9.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_display_field" Width="1.5" PointX="8.25" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_display_field_group" Width="1.5" PointX="3" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_education" Width="1.5" PointX="8.25" PointY="54.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_email" Width="1.5" PointX="7.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_email_configuration" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_email_notification" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_email_processor" Width="1.5" PointX="10" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_email_subscriber" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_email_template" Width="1.5" PointX="10" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_emp_education" Width="1.5" PointX="10.5" PointY="67.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_emp_license" Width="1.5" PointX="13.5" PointY="68.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_emp_reporting_method" Width="1.5" PointX="17.25" PointY="79.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_emp_termination" Width="1.5" PointX="10.5" PointY="64.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_emp_termination_reason" Width="1.5" PointX="8.25" PointY="57.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_employment_status" Width="1.5" PointX="3" PointY="67.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_filter_field" Width="1.5" PointX="3" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_group_field" Width="1.5" PointX="5.25" PointY="32" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_holiday" Width="1.5" PointX="14.25" PointY="42.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_home_page" Width="1.5" PointX="16.5" PointY="50.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_job_candidate" Width="1.5" PointX="10.5" PointY="55.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_job_candidate_attachment" Width="1.5" PointX="12.75" PointY="54.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_job_candidate_history" Width="1.5" PointX="22" PointY="63.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_job_candidate_vacancy" Width="1.5" PointX="17.75" PointY="57.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_job_category" Width="1.5" PointX="6" PointY="61.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_job_interview" Width="1.5" PointX="12.75" PointY="57.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_job_interview_attachment" Width="1.5" PointX="15" PointY="58.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_job_specification_attachment" Width="1.5" PointX="3" PointY="70" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_job_title" Width="1.5" PointX="0.75" PointY="68.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_job_vacancy" Width="1.5" PointX="6" PointY="68" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_job_vacancy_attachment" Width="1.5" PointX="8.25" PointY="80.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_kpi" Width="1.5" PointX="12.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_language" Width="1.5" PointX="16.25" PointY="90.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_leave" Width="1.5" PointX="23.75" PointY="68.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_leave_adjustment" Width="1.5" PointX="10.5" PointY="72.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_leave_comment" Width="1.5" PointX="13.5" PointY="63.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_leave_entitlement" Width="1.5" PointX="13.5" PointY="72" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_leave_entitlement_adjustment" Width="1.5" PointX="20.75" PointY="75.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_leave_entitlement_type" Width="1.5" PointX="8.25" PointY="84.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_leave_leave_entitlement" Width="1.5" PointX="26" PointY="71.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_leave_period_history" Width="1.5" PointX="2.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_leave_request" Width="1.5" PointX="16.5" PointY="68" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_leave_request_comment" Width="1.5" PointX="24.75" PointY="63.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_leave_status" Width="1.5" PointX="9.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_leave_type" Width="1.5" PointX="14.25" PointY="45.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_license" Width="1.5" PointX="11.25" PointY="51.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_location" Width="1.5" PointX="6" PointY="56.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_login" Width="1.5" PointX="13.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_membership" Width="1.5" PointX="17.25" PointY="82.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_menu_item" Width="1.5" PointX="7.25" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_module" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_module_default_page" Width="1.5" PointX="16.5" PointY="28.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_nationality" Width="1.5" PointX="6" PointY="65.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_operational_country" Width="1.5" PointX="12" PointY="46.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_organization_gen_info" Width="1.5" PointX="11.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_pay_grade" Width="1.5" PointX="16.25" PointY="55" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_pay_grade_currency" Width="1.5" PointX="23.5" PointY="73.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_performance_review" Width="1.5" PointX="10.5" PointY="79.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_performance_track" Width="1.5" PointX="10.5" PointY="84.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_performance_tracker_log" Width="1.5" PointX="15.75" PointY="75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_performance_tracker_reviewer" Width="1.5" PointX="15.75" PointY="71.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_plugin" Width="1.5" PointX="13.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_project" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_project_activity" Width="1.5" PointX="14.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_project_admin" Width="1.5" PointX="10.5" PointY="88" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_report" Width="1.5" PointX="3" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_report_group" Width="1.5" PointX="0.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_reviewer" Width="1.5" PointX="12.75" PointY="80" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_reviewer_group" Width="1.5" PointX="14.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_reviewer_rating" Width="1.5" PointX="15" PointY="80.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_role_user_selection_rule" Width="1.5" PointX="15.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_screen" Width="1.5" PointX="5" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_selected_composite_display_field" Width="1.5" PointX="7.5" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_selected_display_field" Width="1.5" PointX="10.5" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_selected_display_field_group" Width="1.5" PointX="5.25" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_selected_filter_field" Width="1.5" PointX="8.25" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_selected_group_field" Width="1.5" PointX="7.5" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_skill" Width="1.5" PointX="17.25" PointY="47.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_subunit" Width="1.5" PointX="6" PointY="72.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_summary_display_field" Width="1.5" PointX="5.25" PointY="23.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_timesheet" Width="1.5" PointX="15.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_timesheet_action_log" Width="1.5" PointX="18.75" PointY="53.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_timesheet_item" Width="1.5" PointX="15.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_upgrade_history" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_user" Width="1.5" PointX="16.5" PointY="62" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_user_role" Width="1.5" PointX="14.25" PointY="49.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_user_role_data_group" Width="1.5" PointX="16.5" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_user_role_screen" Width="1.5" PointX="16.5" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_user_selection_rule" Width="1.5" PointX="16.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_work_shift" Width="1.5" PointX="6" PointY="76.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_work_week" Width="1.5" PointX="14.25" PointY="38.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hrm_workflow_state_machine" Width="1.5" PointX="0.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_config" Width="1.5" PointX="16.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_country" Width="1.5" PointX="3.75" PointY="56.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_currency_type" Width="1.5" PointX="16.25" PointY="85.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_custom_export" Width="1.5" PointX="17.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_custom_fields" Width="1.5" PointX="17.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_custom_import" Width="1.5" PointX="17.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_district" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_emp_attachment" Width="1.5" PointX="10.5" PointY="96.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_emp_basicsalary" Width="1.5" PointX="18.5" PointY="71.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_emp_children" Width="1.5" PointX="10.5" PointY="104.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_emp_contract_extend" Width="1.5" PointX="10.5" PointY="107.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_emp_dependents" Width="1.5" PointX="10.5" PointY="110" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_emp_directdebit" Width="1.5" PointX="20.75" PointY="72.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_emp_emergency_contacts" Width="1.5" PointX="10.5" PointY="113.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_emp_history_of_ealier_pos" Width="1.5" PointX="10.5" PointY="116.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_emp_language" Width="1.5" PointX="18.5" PointY="76.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_emp_member_detail" Width="1.5" PointX="19.5" PointY="68" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_emp_passport" Width="1.5" PointX="10.5" PointY="125.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_emp_picture" Width="1.5" PointX="10.5" PointY="129.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_emp_reportto" Width="1.5" PointX="19.5" PointY="64.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_emp_us_tax" Width="1.5" PointX="10.5" PointY="135.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_emp_work_experience" Width="1.5" PointX="10.5" PointY="139.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_employee" Width="1.5" PointX="8.25" PointY="60.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_module" Width="1.5" PointX="18.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_pay_period" Width="1.5" PointX="18.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_payperiod" Width="1.5" PointX="16.25" PointY="88.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_province" Width="1.5" PointX="10.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_unique_id" Width="1.5" PointX="12.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_emp_skill" Width="1.5" PointX="19.5" PointY="61.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="sparModel.hs_hr_mailnotifications" Width="1.5" PointX="18.75" PointY="51" IsExpanded="true" />
+        <AssociationConnector Association="sparModel.hrm_available_group_field_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_composite_display_field_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_composite_display_field_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_selected_composite_display_field_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_data_group_screen_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_user_role_data_group_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_data_group_screen_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_datapoint_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_display_field_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_display_field_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_selected_display_field_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_display_field_group_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_selected_display_field_group_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_summary_display_field_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_emp_education_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_email_processor_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_email_template_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_email_subscriber_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_emp_education_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_emp_license_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_emp_license_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_reportto_ibfk_3" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_emp_termination_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_emp_termination_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_employee_ibfk_6" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_employee_ibfk_4" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_filter_field_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_selected_filter_field_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_selected_group_field_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.fk_hrm_holiday_hrm_operational_country" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_home_page_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_job_candidate_attachment_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_job_candidate_history_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_job_candidate_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_job_candidate_vacancy_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_job_interview_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_job_candidate_history_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_job_candidate_history_ibfk_3" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_job_candidate_history_ibfk_4" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_job_candidate_vacancy_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_employee_ibfk_5" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_job_interview_attachment_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_job_specification_attachment_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_job_vacancy_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_employee_ibfk_3" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_job_vacancy_attachment_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_job_vacancy_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_language_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_comment_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_leave_entitlement_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_adjustment_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_adjustment_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_adjustment_ibfk_3" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_adjustment_ibfk_4" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_entitlement_adjustment_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_comment_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_comment_ibfk_3" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_entitlement_adjustment_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_entitlement_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_entitlement_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_entitlement_ibfk_3" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_entitlement_ibfk_4" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_leave_entitlement_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_request_comment_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_request_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_request_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_request_comment_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_request_comment_ibfk_3" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_leave_type_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_location_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_member_detail_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_menu_item_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_module_default_page_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_screen_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_module_default_page_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_employee_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.fk_hrm_operational_country_hs_hr_country" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.fk_hrm_work_week_hrm_operational_country" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_pay_grade_currency_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_basicsalary_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_pay_grade_currency_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_performance_review_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_reviewer_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_reviewer_rating_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_performance_track_fk1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_performance_track_fk2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_performance_tracker_log_fk1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_performance_tracker_reviewer_fk1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.fk_hrm_performance_tracker_log_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_performance_tracker_log_fk2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_performance_tracker_reviewer_fk2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_project_admin_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_report_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_selected_composite_display_field_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_selected_display_field_group_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_selected_display_field_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_selected_filter_field_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_selected_group_field_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_reviewer_rating_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_user_role_screen_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_selected_group_field_ibfk_3" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_skill_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_employee_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_timesheet_action_log_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_user_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_user_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_mailnotifications_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_user_role_data_group_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_user_role_screen_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_basicsalary_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_attachment_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_basicsalary_ibfk_3" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_basicsalary_ibfk_4" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_directdebit_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_children_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_contract_extend_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_dependents_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_emergency_contacts_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_history_of_ealier_pos_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_language_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_member_detail_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_passport_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_picture_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_reportto_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_reportto_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_us_tax_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_work_experience_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_skill_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_employee_work_shift" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hrm_job_interview_interviewer" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_emp_locations" ManuallyRouted="false" />
+        <AssociationConnector Association="sparModel.hs_hr_jobtit_empstat" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

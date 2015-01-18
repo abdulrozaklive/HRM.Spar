@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+    <title>Home</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <link href="dist/css/spar.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar-fixed-top.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body class="body-spar">
+  
+       <!-- Add Employee Modal -->
+  <div id="addEmployeeModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="addEmployeeModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 id="addEmployeeModalLabel" class="modal-title">Action Title</h4>
+        </div>
+        <div class="modal-body">
+          Action Content &amp; Form
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-brown">Save</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <!---<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>--->
+                		<div class="btn-group-right">
+                          <a href="#" class="btn-icon-user dropdown-toggle" data-toggle="dropdown">
+                          <span class="glyphicon glyphicon-user"></span>
+                          </a>
+                          <ul class="dropdown-menu2" role="menu">
+                            <li><a href="#">My Profile</a></li>
+                            <li><a href="#">Change Password</a></li>
+                          </ul>
+                        </div>
+          <a class="navbar-brand" href="home.html"><h3>Spar.</h3></a>
+           <div class="top-search">
+                              <div class="input-group">
+                                <input type="text" class="form-control">
+                                <span class="input-group-btn">
+                                  <button class="btn btn-default btn-xs" type="button">
+                                  <span class="glyphicon glyphicon-search"></span></button>
+                                </span>
+                              </div>
+        			 </div>
+          
+      
+          		<ul class="nav navbar-nav pull-right notification">
+          		
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              	<span class="glyphicon glyphicon-envelope"></span><span class="badge badge-orange">9</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Mail 1</a></li>
+                <li><a href="#">Mail 2</a></li>
+                <li><a href="#">Mail 3</a></li>
+                <li><a href="#">Mail 4</a></li>
+                <li><a href="#">Mail 5</a></li>
+                <li class="divider"></li>
+                <li><a href="#">See All Messages</a></li>
+              </ul>
+            </li>
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              	<span class="glyphicon glyphicon-bell"></span><span class="badge badge-red">29</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Notification 1</a></li>
+                <li><a href="#">Notification 2</a></li>
+                <li><a href="#">Notification 3</a></li>
+                <li><a href="#">Notification 4</a></li>
+                <li><a href="#">Notification 5</a></li>
+                <li class="divider"></li>
+                <li><a href="#">See All Notifications</a></li>
+              </ul>
+            </li>
+            
+            
+            
+            <li class="dropdown mobile-hidden">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              	<span class="glyphicon glyphicon-plus-sign"></span>
+              </a>
+              <ul class="dropdown-menu">
+               
+                <li class="dropdown-header">Popular Actions</li>
+                <li><a  href="#addEmployeeModal" data-toggle="modal">Add New Employee</a></li>
+                <li><a  href="#addEmployeeModal" data-toggle="modal">Add New Leave</a></li>
+                <li><a  href="#addEmployeeModal" data-toggle="modal">Add New Vacancy</a></li>
+                <li><a  href="#addEmployeeModal" data-toggle="modal">Add New Training</a></li>
+              </ul>
+            </li>
+            
+             <li class="dropdown mobile-hidden">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              	<span class="glyphicon glyphicon-cog"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Site Settings</a></li>
+                <li><a href="#">Announcement</a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </li>
+          </ul>	
+          <div class="navbar-collapse collapse">
+         
+        
+          <ul class="nav navbar-nav navbar-right user-top">
+          	<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Teale Shapcott <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="masterdata2.html">My Profile</a></li>
+                <li><a href="#">Change Password</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Logout</a></li>
+              </ul>
+            </li>
+           </ul> 
+         
+          		
+           
+        </div><!--/.nav-collapse -->
+        </div>
+       				
+                     
+           
+            
+        
+      
+      
+      </div>
+    </div>
+	
+    <div class="navbar bg-brown">
+    		<div class="container">
+    									<div id="profile">
+                                            <img src="assets/img/profile-pic.jpg" alt="Teale Shapcott">
+                                            <ul class="top-list">
+                                                    <li><a class="name" href="masterdata2.html"><span class="greets">Hi, </span>Teale Shapcott</a></li>
+                                                    <li><a class="view-prof" href="masterdata2.html">View My Profile</a></li>
+                                            </ul>
+                                        </div>
+    		</div>
+    </div>
+
+
+    <div class="container cont-big">
+				
+                
+                
+                		<div class="sidebar">
+                        		
+                                <ul class="nav bs-sidenav">
+                                        	<li class="accordion-group border-btm">
+                                            <span class="accordion-heading">
+                                            <a href="home.html">
+                                            <span class="glyphicon glyphicon-dashboard p-right10"></span>
+                                            <span class="left-nav-text">
+                                            Overview
+                                            </span></a>
+                                            </span>
+                                            </li>
+                                            
+                                            <li class="accordion-group border-btm">
+                                            <span class="accordion-heading">
+                                            <span class="glyphicon glyphicon-user p-right10"></span>
+                                            <span class="left-nav-text">
+                                            People
+                                            </span>
+                                            </span>
+                                                <ul id="collapseOne" class="accordion-body">
+                                                        <li class="accordion-inner"><a href="masterdata.html">
+                                                        <span class="glyphicon glyphicon-user p-right10"></span>
+                                                        <span class="left-nav-text">
+                                                        People Directory
+                                                        </span>
+                                                        </a></li>
+                                                        <li class="accordion-inner"><a href="travel.html">
+                                                        <span class="glyphicon glyphicon-plane p-right10"></span>
+                                                        <span class="left-nav-text">
+                                                        Leave
+                                                        </span>
+                                                        </a></li>
+                                                        <li class="accordion-inner"><a href="recruitment.html">
+                                                        <span class="glyphicon glyphicon-briefcase p-right10"></span>
+                                                        <span class="left-nav-text">
+                                                        Recruitment
+                                                        </span>
+                                                        </a></li>
+                                                        
+                                                </ul>
+                                    		</li>
+                                            
+                                            <li class="accordion-group border-btm">
+                                            <span class="accordion-heading">
+                                            <span class="glyphicon glyphicon-usd p-right10"></span>
+                                            <span class="left-nav-text">
+                                            Payroll
+                                            </span>
+                                            </span>
+                                                <ul id="collapseTwo" class="accordion-body">
+                                                        <li class="accordion-inner"><a href="payroll.html">
+                                                        <span class="glyphicon glyphicon-usd p-right10"></span>
+                                                        <span class="left-nav-text">
+                                                        Payroll
+                                                        </span>
+                                                        </a></li>
+                                                        <li class="accordion-inner"><a href="claims.html">
+                                                        <span class="glyphicon glyphicon-dashboard p-right10"></span>
+                                                        <span class="left-nav-text">
+                                                        Claims &amp; Requests
+                                                        </span>
+                                                        </a></li>
+                                                        <li class="accordion-inner"><a href="process.html">
+                                                        <span class="glyphicon glyphicon-refresh p-right10"></span>
+                                                        <span class="left-nav-text">
+                                                        Process
+                                                        </span>
+                                                        </a></li>
+                                                        <li class="accordion-inner"><a href="attendance.html">
+                                                        <span class="glyphicon glyphicon-calendar p-right10"></span>
+                                                        <span class="left-nav-text">
+                                                        Attendance
+                                                        </span>
+                                                        </a></li>
+                                                        
+                                                </ul>
+                                    		</li>
+                                            
+                                            <li class="accordion-group border-btm">
+                                            <span class="accordion-heading">
+                                            <span class="glyphicon glyphicon-folder-open p-right10"></span>
+                                            <span class="left-nav-text">
+                                            Company
+                                            </span>
+                                            </span>
+                                                <ul id="collapseThree" class="accordion-body">
+                                                        <li class="accordion-inner"><a href="calendar.html">
+                                                        <span class="glyphicon glyphicon-calendar p-right10"></span>
+                                                        <span class="left-nav-text">
+                                                        Calendar
+                                                        </span>
+                                                        </a></li>
+                                                        <li class="accordion-inner"><a href="training.html">
+                                                        <span class="glyphicon glyphicon-th-list p-right10"></span>
+                                                        <span class="left-nav-text">
+                                                        Training &amp; Certifications
+                                                        </span>
+                                                        </a></li>
+                                                        <li class="accordion-inner"><a href="organization.html">
+                                                        <span class="glyphicon glyphicon-refresh p-right10"></span>
+                                                        <span class="left-nav-text">
+                                                        Organization Chart
+                                                        </span>
+                                                        </a></li>
+                                                        
+                                                        
+                                                </ul>
+                                    		</li>
+                                            
+                                        </ul>
+                                
+                        </div>
+                        
+                        <div class="main-cont">
+                        		
+                                <div class="main-in">	
+		                            		<h3>Overview</h3>
+		                            		<div class="clear"></div>
+		                            		<div class="marginal"></div>
+                                        	<canvas id="left_chart" height="175" width="225"></canvas>
+                                        	<canvas id="right_chart" height="200" width="275" ></canvas>
+                                        </div>
+                                        <div class="clear"></div>
+                                
+                                
+                                
+                                <div class="in-right">
+                                		
+                                        <div class="right-top">
+                                        		<ul class="attendance-box">
+                                                		<li class="attendance-box-date">
+                                                        	Thursday, 12 June 2013
+                                                        </li>
+                                                        <li class="leave-mobile">
+                                                        <span class="leave-avail">
+                                                        	Leave Avail.
+                                                        </span>
+                                                        <span class="number-leave">
+                                                        	10.5
+                                                        </span>
+                                                        </li>
+                                                        
+                                                        <li class="punch-in">
+                                                        	Punch in
+                                                            <span>08.35</span>
+                                                        </li>
+                                                        <li class="punch-out">
+                                                        	Punch Out
+                                                            <span>16.35</span>
+                                                        </li>
+                                                        
+                                                        
+                                                        
+                                                </ul>
+                                                <div class="mobile-hidden">
+                                                <div class="days-available">
+                                                    <p>Leave days available<br> until 14 Jan 2014</p>
+                                                    <span>10.5</span>
+                                                </div>
+                                                <a class="pull-right btn-sm btn-brown"  href="#addEmployeeModal" data-toggle="modal">Schedule Vacation</a>
+                                                <a class="pull-right btn-sm btn-brown"  href="#addEmployeeModal" data-toggle="modal">Call in Sick</a>
+                                                <a class="pull-right btn-sm btn-brown"  href="#addEmployeeModal" data-toggle="modal">Submit Reimbursement</a>
+                                        
+                                                <h5 class="pop-actions pull-right">Popular Actions</h5>
+                                                <ul class="pop-actions pull-right">
+                                                    <li><a href="#">Add an Employee</a></li>
+                                                    <li><a href="#">Post a Job Opening</a></li>
+                                                    <li><a href="#">Company Broadcast</a></li>
+                                                    <li><a href="#">FAQ</a></li>
+                                                </ul>
+                                                </div>
+                                        </div>
+                                        
+                                </div>
+                                
+                                <div class="in-mid home-mid">
+                                		
+                                        
+                                        <div class="bs-example bs-example-tabs">
+                                                  <ul id="myTab" class="nav nav-tabs home-mid-tab">
+                                                    <li class="active left"><a href="#leave" data-toggle="tab">Leave</a></li>
+                                                    <li class=""><a href="#sick" data-toggle="tab">Sick</a></li>
+                                                    <li class="right"><a href="#claim" data-toggle="tab">Claim</a></li>
+                                                  </ul>
+                                                  <div id="myTabContent" class="tab-content">
+                                                  <div class="tab-pane fade mobile-hidden">
+                                                  <div class="in-mid-box">
+                                        		<h5 class="small-head">Leave Request</h5>
+                                                <ul class="leave-request">
+                                                		<li>
+                                                        	<ul>
+                                                            	<li class="w20">
+                                                            	  <a href="masterdata2.html"><img src="assets/img/boby-p.jpg" alt="">
+                                                       	      <span>Ignatius<br>Boby P</span></a> </li>
+                                                                <li class="w20">
+                                                                <span class="sm-9">From</span>
+                                                                	13 June 2013
+                                                                </li>
+                                                                <li class="w20">
+                                                                <span class="sm-9">Until</span>
+                                                                	14 June 2013
+                                                                </li>
+                                                                <li class="w20 font-green">
+                                                                <span class="sm-9">Leave Available</span>
+                                                                	5/4 (1)
+                                                                </li>
+                                                                <li class="w20">
+                                                                	<a href="#" class="btn btn-brown">Approve</a>
+                                                                </li>
+                                                            </ul>   
+                                                        </li>
+                                                        
+                                                        <li>
+                                                        	<ul>
+                                                            	<li class="w20">
+                                                            	  <a href="masterdata2.html"><img src="assets/img/shirley-ang.jpg" alt="">
+                                                       	      <span>Shirley<br>Anggra</span></a> </li>
+                                                                <li class="w20">
+                                                                <span class="sm-9">From</span>
+                                                                	13 June 2013
+                                                                </li>
+                                                                <li class="w20">
+                                                                <span class="sm-9">Until</span>
+                                                                	14 June 2013
+                                                                </li>
+                                                                <li class="w20 font-red">
+                                                                <span class="sm-9">Leave Available</span>
+                                                                	7/7 (1)
+                                                                </li>
+                                                                <li class="w20">
+                                                                	<a href="#" class="btn btn-brown">Approve</a>
+                                                                </li>
+                                                            </ul>   
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                                  </div>
+                                                    <div class="tab-pane fade active in" id="leave">
+                                                    		<div class="in-mid-box">
+                                        		<h5 class="small-head">On Leave</h5>
+                                                <ul class="on-leave">
+                                                		<li>
+                                                        	<ul>
+                                                            <li class="w33">
+                                                        	<a href="masterdata2.html"><img src="assets/img/leave-pic-sm.jpg" alt="">
+                                                            <span>Matthew<br>McKenna</span></a>
+                                                            <span class="leave-date-sm">
+                                                            		16
+                                                            		<span class="sm-9">
+                                                                    JUN
+                                                                    </span>
+                                                            </span>
+                                                        	</li>
+                                                            
+                                                            <li class="w33">
+                                                        	<a href="masterdata2.html"><img src="assets/img/leave-pic-sm3.jpg" alt="">
+                                                            <span>Ron<br>Kenolly</span></a>
+                                                            <span class="leave-date-sm">
+                                                            		19
+                                                            		<span class="sm-9">
+                                                                    JUN
+                                                                    </span>
+                                                            </span>
+                                                        	</li>
+                                                            
+                                                            <li class="w33">
+                                                        	<a href="masterdata2.html"><img src="assets/img/leave-pic-sm4.jpg" alt="">
+                                                            <span>Rajesh<br>Himnista</span></a>
+                                                            <span class="leave-date-sm">
+                                                            		20
+                                                            		<span class="sm-9">
+                                                                    JUN
+                                                                    </span>
+                                                            </span>
+                                                        	</li>
+                                                            </ul>
+                                                        </li>
+                                                        
+                                                        <li>
+                                                        	<ul>
+                                                            <li class="w33">
+                                                        	<a href="masterdata2.html"><img src="assets/img/ancill.jpg" alt="">
+                                                            <span>Ancilla<br>Maggie</span></a>
+                                                            <span class="leave-date-sm">
+                                                            		21
+                                                            		<span class="sm-9">
+                                                                    JUN
+                                                                    </span>
+                                                            </span>
+                                                        	</li>
+                                                            
+                                                            <li class="w33">
+                                                        	<a href="masterdata2.html"><img src="assets/img/adrian-tj.jpg" alt="">
+                                                            <span>Adrian<br>Tjahyadi</span></a>
+                                                            <span class="leave-date-sm">
+                                                            		21
+                                                            		<span class="sm-9">
+                                                                    JUN
+                                                                    </span>
+                                                            </span>
+                                                        	</li>
+                                                            
+                                                            <li class="w33">
+                                                        	<a href="masterdata2.html"><img src="assets/img/kurnia-ag.jpg" alt="">
+                                                            <span>Kurnia<br>Andini</span></a>
+                                                            <span class="leave-date-sm">
+                                                            		22
+                                                            		<span class="sm-9">
+                                                                    JUN
+                                                                    </span>
+                                                            </span>
+                                                        	</li>
+                                                            </ul>
+                                                        </li>
+                                                        
+                                                        
+                                                </ul>
+                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="tab-pane fade  mobile-hidden">
+                                                    <div class="in-mid-box">
+                                        		<h5 class="small-head"><span class="glyphicon glyphicon-gift" style="padding-right:5px;"></span>Birthdays Today</h5>
+                                                <ul class="on-leave">
+                                                		<li>
+                                                        	<ul>
+                                                            		<li class="w25">
+                                                                      <a href="masterdata2.html"><img src="assets/img/shirley-ang.jpg" alt="">
+                                                              <span>Shirley<br>Anggra</span></a> </li>
+                                                                    
+                                                                    <li class="w25">
+                                                                      <a href="masterdata2.html"><img src="assets/img/leave-pic-sm2.jpg" alt="">
+                                                              <span>Diego<br>Gonzales</span></a> </li>
+                                                                    
+                                                                    <li class="w25">
+                                                                      <a href="masterdata2.html"><img src="assets/img/kurnia-ag.jpg" alt="">
+                                                                    <span>Kurnia<br>Andini</span></a> </li>
+                                                            </ul>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                                    </div>
+                                                    
+                                                    
+                                                    <div class="tab-pane fade normal-hidden" id="sick">
+                                                    		<div class="in-mid-box">
+                                        		<h5 class="small-head">Sick</h5>
+                                                <ul class="on-leave">
+                                                		<li>
+                                                        	<ul>
+                                                            <li class="w33">
+                                                        	<a href="masterdata2.html"><img src="assets/img/leave-pic-sm.jpg" alt="">
+                                                            <span>Matthew<br>McKenna</span></a>
+                                                            <span class="leave-date-sm">
+                                                            		16
+                                                            		<span class="sm-9">
+                                                                    JUN
+                                                                    </span>
+                                                            </span>
+                                                        	</li>
+                                                            
+                                                            <li class="w33">
+                                                        	<a href="masterdata2.html"><img src="assets/img/leave-pic-sm3.jpg" alt="">
+                                                            <span>Ron<br>Kenolly</span></a>
+                                                            <span class="leave-date-sm">
+                                                            		19
+                                                            		<span class="sm-9">
+                                                                    JUN
+                                                                    </span>
+                                                            </span>
+                                                        	</li>
+                                                            
+                                                            <li class="w33">
+                                                        	<a href="masterdata2.html"><img src="assets/img/leave-pic-sm4.jpg" alt="">
+                                                            <span>Rajesh<br>Himnista</span></a>
+                                                            <span class="leave-date-sm">
+                                                            		20
+                                                            		<span class="sm-9">
+                                                                    JUN
+                                                                    </span>
+                                                            </span>
+                                                        	</li>
+                                                            </ul>
+                                                        </li>
+                                                        
+                                                        <li>
+                                                        	<ul>
+                                                            <li class="w33">
+                                                        	<a href="masterdata2.html"><img src="assets/img/leave-pic-sm.jpg" alt="">
+                                                            <span>Matthew<br>McKenna</span></a>
+                                                            <span class="leave-date-sm">
+                                                            		21
+                                                            		<span class="sm-9">
+                                                                    JUN
+                                                                    </span>
+                                                            </span>
+                                                        	</li>
+                                                            
+                                                            <li class="w33">
+                                                        	<a href="masterdata2.html"><img src="assets/img/leave-pic-sm3.jpg" alt="">
+                                                            <span>Ron<br>Kenolly</span></a>
+                                                            <span class="leave-date-sm">
+                                                            		21
+                                                            		<span class="sm-9">
+                                                                    JUN
+                                                                    </span>
+                                                            </span>
+                                                        	</li>
+                                                            
+                                                            <li class="w33">
+                                                        	<a href="masterdata2.html"><img src="assets/img/leave-pic-sm4.jpg" alt="">
+                                                            <span>Rajesh<br>Himnista</span></a>
+                                                            <span class="leave-date-sm">
+                                                            		22
+                                                            		<span class="sm-9">
+                                                                    JUN
+                                                                    </span>
+                                                            </span>
+                                                        	</li>
+                                                            </ul>
+                                                        </li>
+                                                        
+                                                        
+                                                </ul>
+                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="tab-pane fade  normal-hidden" id="claim">
+                                                    		<div class="in-mid-box leave-req">
+                                        		<h5 class="small-head">Claim</h5>
+                                                <ul class="leave-request">
+                                                		<li>
+                                                        	<ul>
+                                                            	<li class="w20">
+                                                            	<img src="assets/img/leave-pic-sm.jpg" alt="">
+                                                            	<span>Matthew<br>McKenna</span>
+                                                                </li>
+                                                                <li class="w20">
+                                                                <span class="sm-9">From</span>
+                                                                	13 June 2013
+                                                                </li>
+                                                                <li class="w20">
+                                                                <span class="sm-9">Until</span>
+                                                                	14 June 2013
+                                                                </li>
+                                                                <li class="w20 font-green">
+                                                                <span class="sm-9">Leave Available</span>
+                                                                	5/4 (1)
+                                                                </li>
+                                                                <li class="w20">
+                                                                	<a href="#" class="btn btn-brown">Approve</a>
+                                                                </li>
+                                                            </ul>   
+                                                        </li>
+                                                        
+                                                        <li>
+                                                        	<ul>
+                                                            	<li class="w20">
+                                                            	<img src="assets/img/leave-pic-sm2.jpg" alt="">
+                                                            	<span>Daniel<br>Gonzales</span>
+                                                                </li>
+                                                                <li class="w20">
+                                                                <span class="sm-9">From</span>
+                                                                	13 June 2013
+                                                                </li>
+                                                                <li class="w20">
+                                                                <span class="sm-9">Until</span>
+                                                                	14 June 2013
+                                                                </li>
+                                                                <li class="w20 font-red">
+                                                                <span class="sm-9">Leave Available</span>
+                                                                	7/7 (1)
+                                                                </li>
+                                                                <li class="w20">
+                                                                	<a href="#" class="btn btn-brown">Approve</a>
+                                                                </li>
+                                                            </ul>   
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                                            
+                                                            
+                                                            
+                                                    </div>
+                                                  </div>
+                                        </div>
+                                        
+                                        
+                                        
+                                        
+                                        
+                                		
+                                        
+                                        
+                                        
+                                        
+                                        
+                                </div>
+                                
+                        </div>
+      <!-- Main component for a primary marketing message or call to action -->
+             
+                        
+      
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="js/chart.js"></script>
+    <script>
+            var doughnutData = [             {
+                    value: 30,
+                    color:"#F7464A"
+                },
+                {
+                    value : 50,
+                    color : "#46BFBD"
+                },
+                {
+                    value : 100,
+                    color : "#FDB45C"
+                },
+                {
+                    value : 40,
+                    color : "#949FB1"
+                },
+                {
+                    value : 120,
+                    color : "#4D5360"
+                }
+            
+            ];
+            
+            var barChartData = {
+                    labels : ["A","B","C","D","E"],
+                    datasets : [
+                        {
+                            fillColor : ["#F7464A","#46BFBD","#FDB45C","#949FB1","#4D5360"],
+                            data : [28,48,40,19,96]
+                        }
+                    ]
+                
+            }
+            
+            var barChartOptions = {
+                    scaleFontStyle : "normal",
+                    barShowStroke : false,
+                    scaleShowLabels: false,
+                    scaleGridLineColor: "#FFFFFF",
+                    scaleLineColor: "#FFFFFF"
+            }
+	
+	        var myLine = new Chart(document.getElementById("right_chart").getContext("2d")).Bar(barChartData, barChartOptions);
+            var myDoughnut = new Chart(document.getElementById("left_chart").getContext("2d")).Doughnut(doughnutData);
+    
+    </script>
+  </body>
+</html>
